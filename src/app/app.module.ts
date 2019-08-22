@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HomeComponent } from './home/home.component';
-import { GadgetsModule } from './gadgets/gadgets.module';
 
 @NgModule({
   declarations: [
@@ -17,8 +16,7 @@ import { GadgetsModule } from './gadgets/gadgets.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    GadgetsModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
